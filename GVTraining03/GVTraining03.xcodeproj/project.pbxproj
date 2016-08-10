@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CACD5D1D0B33CD0055DF67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD5C1D0B33CD0055DF67 /* main.m */; };
+		F0CACD601D0B33CD0055DF67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD5F1D0B33CD0055DF67 /* AppDelegate.m */; };
+		F0CACD631D0B33CD0055DF67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD621D0B33CD0055DF67 /* ViewController.m */; };
+		F0CACD661D0B33CD0055DF67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CACD641D0B33CD0055DF67 /* Main.storyboard */; };
+		F0CACD6B1D0B33CD0055DF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CACD691D0B33CD0055DF67 /* LaunchScreen.storyboard */; };
+		F0CACD7B1D0B348C0055DF67 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD741D0B348C0055DF67 /* Card.m */; };
+		F0CACD7C1D0B348C0055DF67 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD761D0B348C0055DF67 /* Deck.m */; };
+		F0CACD7D1D0B348C0055DF67 /* PokerCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD781D0B348C0055DF67 /* PokerCard.m */; };
+		F0CACD7E1D0B348C0055DF67 /* PokerDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD7A1D0B348C0055DF67 /* PokerDeck.m */; };
+		F0CACD801D0B35030055DF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CACD7F1D0B35030055DF67 /* Assets.xcassets */; };
+		F0CACD831D0B36470055DF67 /* ConcentrationGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CACD821D0B36470055DF67 /* ConcentrationGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0CACD581D0B33CD0055DF67 /* GVTraining03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVTraining03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CACD5C1D0B33CD0055DF67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0CACD5E1D0B33CD0055DF67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0CACD5F1D0B33CD0055DF67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0CACD611D0B33CD0055DF67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0CACD621D0B33CD0055DF67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0CACD651D0B33CD0055DF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0CACD6A1D0B33CD0055DF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0CACD6C1D0B33CD0055DF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CACD731D0B348C0055DF67 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		F0CACD741D0B348C0055DF67 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		F0CACD751D0B348C0055DF67 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		F0CACD761D0B348C0055DF67 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		F0CACD771D0B348C0055DF67 /* PokerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerCard.h; sourceTree = "<group>"; };
+		F0CACD781D0B348C0055DF67 /* PokerCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerCard.m; sourceTree = "<group>"; };
+		F0CACD791D0B348C0055DF67 /* PokerDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerDeck.h; sourceTree = "<group>"; };
+		F0CACD7A1D0B348C0055DF67 /* PokerDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerDeck.m; sourceTree = "<group>"; };
+		F0CACD7F1D0B35030055DF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0CACD811D0B36470055DF67 /* ConcentrationGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcentrationGame.h; sourceTree = "<group>"; };
+		F0CACD821D0B36470055DF67 /* ConcentrationGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcentrationGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CACD551D0B33CD0055DF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CACD4F1D0B33CD0055DF67 = {
+			isa = PBXGroup;
+			children = (
+				F0CACD5A1D0B33CD0055DF67 /* GVTraining03 */,
+				F0CACD591D0B33CD0055DF67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CACD591D0B33CD0055DF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CACD581D0B33CD0055DF67 /* GVTraining03.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CACD5A1D0B33CD0055DF67 /* GVTraining03 */ = {
+			isa = PBXGroup;
+			children = (
+				F0CACD721D0B348C0055DF67 /* Model */,
+				F0CACD5E1D0B33CD0055DF67 /* AppDelegate.h */,
+				F0CACD5F1D0B33CD0055DF67 /* AppDelegate.m */,
+				F0CACD611D0B33CD0055DF67 /* ViewController.h */,
+				F0CACD621D0B33CD0055DF67 /* ViewController.m */,
+				F0CACD641D0B33CD0055DF67 /* Main.storyboard */,
+				F0CACD691D0B33CD0055DF67 /* LaunchScreen.storyboard */,
+				F0CACD7F1D0B35030055DF67 /* Assets.xcassets */,
+				F0CACD6C1D0B33CD0055DF67 /* Info.plist */,
+				F0CACD5B1D0B33CD0055DF67 /* Supporting Files */,
+			);
+			path = GVTraining03;
+			sourceTree = "<group>";
+		};
+		F0CACD5B1D0B33CD0055DF67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CACD5C1D0B33CD0055DF67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0CACD721D0B348C0055DF67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0CACD731D0B348C0055DF67 /* Card.h */,
+				F0CACD741D0B348C0055DF67 /* Card.m */,
+				F0CACD751D0B348C0055DF67 /* Deck.h */,
+				F0CACD761D0B348C0055DF67 /* Deck.m */,
+				F0CACD771D0B348C0055DF67 /* PokerCard.h */,
+				F0CACD781D0B348C0055DF67 /* PokerCard.m */,
+				F0CACD791D0B348C0055DF67 /* PokerDeck.h */,
+				F0CACD7A1D0B348C0055DF67 /* PokerDeck.m */,
+				F0CACD811D0B36470055DF67 /* ConcentrationGame.h */,
+				F0CACD821D0B36470055DF67 /* ConcentrationGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CACD571D0B33CD0055DF67 /* GVTraining03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CACD6F1D0B33CD0055DF67 /* Build configuration list for PBXNativeTarget "GVTraining03" */;
+			buildPhases = (
+				F0CACD541D0B33CD0055DF67 /* Sources */,
+				F0CACD551D0B33CD0055DF67 /* Frameworks */,
+				F0CACD561D0B33CD0055DF67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GVTraining03;
+			productName = GVTraining03;
+			productReference = F0CACD581D0B33CD0055DF67 /* GVTraining03.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CACD501D0B33CD0055DF67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guichê Virtual";
+				TargetAttributes = {
+					F0CACD571D0B33CD0055DF67 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F0CACD531D0B33CD0055DF67 /* Build configuration list for PBXProject "GVTraining03" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0CACD4F1D0B33CD0055DF67;
+			productRefGroup = F0CACD591D0B33CD0055DF67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CACD571D0B33CD0055DF67 /* GVTraining03 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CACD561D0B33CD0055DF67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CACD6B1D0B33CD0055DF67 /* LaunchScreen.storyboard in Resources */,
+				F0CACD801D0B35030055DF67 /* Assets.xcassets in Resources */,
+				F0CACD661D0B33CD0055DF67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CACD541D0B33CD0055DF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CACD7C1D0B348C0055DF67 /* Deck.m in Sources */,
+				F0CACD7D1D0B348C0055DF67 /* PokerCard.m in Sources */,
+				F0CACD631D0B33CD0055DF67 /* ViewController.m in Sources */,
+				F0CACD7E1D0B348C0055DF67 /* PokerDeck.m in Sources */,
+				F0CACD601D0B33CD0055DF67 /* AppDelegate.m in Sources */,
+				F0CACD5D1D0B33CD0055DF67 /* main.m in Sources */,
+				F0CACD7B1D0B348C0055DF67 /* Card.m in Sources */,
+				F0CACD831D0B36470055DF67 /* ConcentrationGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0CACD641D0B33CD0055DF67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CACD651D0B33CD0055DF67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0CACD691D0B33CD0055DF67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CACD6A1D0B33CD0055DF67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CACD6D1D0B33CD0055DF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0CACD6E1D0B33CD0055DF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0CACD701D0B33CD0055DF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GVTraining03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guichevirtual.GVTraining03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0CACD711D0B33CD0055DF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GVTraining03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guichevirtual.GVTraining03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CACD531D0B33CD0055DF67 /* Build configuration list for PBXProject "GVTraining03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CACD6D1D0B33CD0055DF67 /* Debug */,
+				F0CACD6E1D0B33CD0055DF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CACD6F1D0B33CD0055DF67 /* Build configuration list for PBXNativeTarget "GVTraining03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CACD701D0B33CD0055DF67 /* Debug */,
+				F0CACD711D0B33CD0055DF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CACD501D0B33CD0055DF67 /* Project object */;
+}
